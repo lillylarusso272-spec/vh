@@ -5,49 +5,49 @@ const UniversityLogos = () => {
     {
       name: 'Harvard University',
       country: '🇺🇸',
-      logo: 'https://images.pexels.com/photos/207692/pexels-photo-207692.jpeg?auto=compress&cs=tinysrgb&w=200&h=100&fit=crop',
+      logo: 'https://images.pexels.com/photos/1454360/pexels-photo-1454360.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop',
       type: 'USA'
     },
     {
       name: 'Stanford University',
       country: '🇺🇸',
-      logo: 'https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=200&h=100&fit=crop',
+      logo: 'https://images.pexels.com/photos/256490/pexels-photo-256490.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop',
       type: 'USA'
     },
     {
       name: 'MIT',
       country: '🇺🇸',
-      logo: 'https://images.pexels.com/photos/256490/pexels-photo-256490.jpeg?auto=compress&cs=tinysrgb&w=200&h=100&fit=crop',
+      logo: 'https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop',
       type: 'USA'
     },
     {
       name: 'Oxford University',
       country: '🇬🇧',
-      logo: 'https://images.pexels.com/photos/1454360/pexels-photo-1454360.jpeg?auto=compress&cs=tinysrgb&w=200&h=100&fit=crop',
+      logo: 'https://images.pexels.com/photos/460672/pexels-photo-460672.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop',
       type: 'Europe'
     },
     {
       name: 'Cambridge University',
       country: '🇬🇧',
-      logo: 'https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=200&h=100&fit=crop',
+      logo: 'https://images.pexels.com/photos/207692/pexels-photo-207692.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop',
       type: 'Europe'
     },
     {
       name: 'ETH Zurich',
       country: '🇨🇭',
-      logo: 'https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=200&h=100&fit=crop',
+      logo: 'https://images.pexels.com/photos/1559821/pexels-photo-1559821.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop',
       type: 'Europe'
     },
     {
       name: 'Sorbonne University',
       country: '🇫🇷',
-      logo: 'https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=200&h=100&fit=crop',
+      logo: 'https://images.pexels.com/photos/208701/pexels-photo-208701.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop',
       type: 'Europe'
     },
     {
       name: 'Technical University of Munich',
       country: '🇩🇪',
-      logo: 'https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=200&h=100&fit=crop',
+      logo: 'https://images.pexels.com/photos/109629/pexels-photo-109629.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop',
       type: 'Europe'
     }
   ];
@@ -82,7 +82,7 @@ const UniversityLogos = () => {
                   <img 
                     src={university.logo} 
                     alt={`${university.name} campus`}
-                    className="w-full h-32 object-cover rounded-lg"
+                    className="w-full h-40 object-cover rounded-lg"
                   />
                 </div>
                 <h4 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors flex items-center">
@@ -113,7 +113,7 @@ const UniversityLogos = () => {
                   <img 
                     src={university.logo} 
                     alt={`${university.name} campus`}
-                    className="w-full h-24 object-cover rounded-lg"
+                    className="w-full h-32 object-cover rounded-lg"
                   />
                 </div>
                 <h4 className="text-sm font-bold text-gray-900 mb-2 group-hover:text-green-600 transition-colors flex items-center">

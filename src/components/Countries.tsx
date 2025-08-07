@@ -11,66 +11,78 @@ const Countries = () => {
   const countries = [
     {
       name: 'Canada',
-      image: 'https://images.pexels.com/photos/1029604/pexels-photo-1029604.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop',
+      flag: '🇨🇦',
+      image: 'https://images.pexels.com/photos/1029604/pexels-photo-1029604.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop',
       description: 'Express Entry, Provincial Nominee Program, Study Permits',
       popular: true
     },
     {
       name: 'Australia',
-      image: 'https://images.pexels.com/photos/1878293/pexels-photo-1878293.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop',
+      flag: '🇦🇺',
+      image: 'https://images.pexels.com/photos/1878293/pexels-photo-1878293.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop',
       description: 'Skilled Migration, Student Visa, Working Holiday',
       popular: true
     },
     {
       name: 'United Kingdom',
-      image: 'https://images.pexels.com/photos/460672/pexels-photo-460672.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop',
+      flag: '🇬🇧',
+      image: 'https://images.pexels.com/photos/460672/pexels-photo-460672.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop',
       description: 'Tier 2 Work Visa, Student Visa, Spouse Visa',
       popular: true
     },
     {
       name: 'United States',
-      image: 'https://images.pexels.com/photos/2044434/pexels-photo-2044434.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop',
+      flag: '🇺🇸',
+      image: 'https://images.pexels.com/photos/2044434/pexels-photo-2044434.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop',
       description: 'H1B, F1 Student, Tourist Visa, Green Card',
       popular: true
     },
     {
       name: 'New Zealand',
-      image: 'https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop',
+      flag: '🇳🇿',
+      image: 'https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop',
       description: 'Skilled Migrant, Work Visa, Student Visa'
     },
     {
       name: 'Germany',
-      image: 'https://images.pexels.com/photos/109629/pexels-photo-109629.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop',
+      flag: '🇩🇪',
+      image: 'https://images.pexels.com/photos/109629/pexels-photo-109629.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop',
       description: 'EU Blue Card, Student Visa, Job Seeker Visa'
     },
     {
       name: 'Netherlands',
-      image: 'https://images.pexels.com/photos/208701/pexels-photo-208701.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop',
+      flag: '🇳🇱',
+      image: 'https://images.pexels.com/photos/208701/pexels-photo-208701.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop',
       description: 'Highly Skilled Migrant, Student Visa'
     },
     {
       name: 'Sweden',
-      image: 'https://images.pexels.com/photos/1559821/pexels-photo-1559821.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop',
+      flag: '🇸🇪',
+      image: 'https://images.pexels.com/photos/1559821/pexels-photo-1559821.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop',
       description: 'Work Permit, Student Visa, Family Reunion'
     },
     {
       name: 'Norway',
-      image: 'https://images.pexels.com/photos/1450360/pexels-photo-1450360.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop',
+      flag: '🇳🇴',
+      image: 'https://images.pexels.com/photos/1450360/pexels-photo-1450360.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop',
       description: 'Skilled Worker, Student Visa, Family Immigration'
     },
     {
       name: 'Denmark',
-      image: 'https://images.pexels.com/photos/1139556/pexels-photo-1139556.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop',
+      flag: '🇩🇰',
+      image: 'https://images.pexels.com/photos/1139556/pexels-photo-1139556.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop',
       description: 'Green Card, Work Permit, Student Visa'
     },
     {
       name: 'Singapore',
-      image: 'https://images.pexels.com/photos/2031706/pexels-photo-2031706.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop',
+      flag: '🇸🇬',
+      image: 'https://images.pexels.com/photos/2031706/pexels-photo-2031706.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop',
       description: 'Employment Pass, Student Pass, Dependent Pass'
     },
     {
       name: 'UAE',
-      image: 'https://images.pexels.com/photos/1534560/pexels-photo-1534560.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop',
+      flag: '🇦🇪',
+      image: 'https://images.pexels.com/photos/1534560/pexels-photo-1534560.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop',
       description: 'Work Visa, Tourist Visa, Golden Visa'
     }
   ];
@@ -95,12 +107,13 @@ const Countries = () => {
               )}
               <div className="mb-4">
                 <img 
-                  src={country.flag} 
-                  alt={`${country.name} flag`}
-                  className="w-full h-32 object-cover rounded-lg"
+                  src={country.image} 
+                  alt={`${country.name} landscape`}
+                  className="w-full h-40 object-cover rounded-lg"
                 />
               </div>
-              <h3 className="text-xl font-bold text-black mb-2 group-hover:text-red-600 transition-colors">
+              <h3 className="text-xl font-bold text-black mb-2 group-hover:text-red-600 transition-colors flex items-center">
+                <span className="text-2xl mr-3">{country.flag}</span>
                 {country.name}
               </h3>
               <p className="text-gray-600 text-sm">{country.description}</p>
