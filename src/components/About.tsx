@@ -29,7 +29,7 @@ const About = () => {
 
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div>
-            <h3 className="text-3xl font-bold text-black mb-6">Why Choose Us?</h3>
+            <h3 className="text-3xl font-bold text-black mb-6">Our Expertise</h3>
             <div className="space-y-6">
               <div className="flex items-start">
                 <div className="bg-red-600 text-white p-2 rounded-lg mr-4">

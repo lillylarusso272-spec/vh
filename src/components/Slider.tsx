@@ -131,15 +131,6 @@ const Slider = () => {
                       {slide.description}
                     </p>
 
-                    <div className="grid grid-cols-2 gap-4 mb-8">
-                      {slide.features.map((feature, idx) => (
-                        <div key={idx} className="flex items-center">
-                          <div className="w-2 h-2 bg-red-500 rounded-full mr-3"></div>
-                          <span className="text-gray-300">{feature}</span>
-                        </div>
-                      ))}
-                    </div>
-
                     <div className="flex flex-col sm:flex-row gap-4">
                       <button 
                         onClick={() => openWhatsApp(`Hello! I'm interested in ${slide.title} services. Please provide more information.`)}
@@ -161,7 +152,7 @@ const Slider = () => {
                     index === currentSlide ? 'translate-x-0 opacity-100' : 'translate-x-10 opacity-0'
                   }`}>
                     <div className="bg-white/10 backdrop-blur-lg p-8 rounded-2xl border border-white/20">
-                      <h3 className="text-2xl font-bold text-white mb-6">Why Choose Us?</h3>
+                      <h3 className="text-2xl font-bold text-white mb-6">Our Success</h3>
                       <div className="space-y-4">
                         <div className="flex justify-between items-center">
                           <span className="text-gray-300">Success Rate</span>

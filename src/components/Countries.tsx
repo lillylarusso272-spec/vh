@@ -11,66 +11,66 @@ const Countries = () => {
   const countries = [
     {
       name: 'Canada',
-      flag: 'https://images.pexels.com/photos/1029604/pexels-photo-1029604.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop',
+      image: 'https://images.pexels.com/photos/1029604/pexels-photo-1029604.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop',
       description: 'Express Entry, Provincial Nominee Program, Study Permits',
       popular: true
     },
     {
       name: 'Australia',
-      flag: 'https://images.pexels.com/photos/1878293/pexels-photo-1878293.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop',
+      image: 'https://images.pexels.com/photos/1878293/pexels-photo-1878293.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop',
       description: 'Skilled Migration, Student Visa, Working Holiday',
       popular: true
     },
     {
       name: 'United Kingdom',
-      flag: 'https://images.pexels.com/photos/460672/pexels-photo-460672.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop',
+      image: 'https://images.pexels.com/photos/460672/pexels-photo-460672.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop',
       description: 'Tier 2 Work Visa, Student Visa, Spouse Visa',
       popular: true
     },
     {
       name: 'United States',
-      flag: 'https://images.pexels.com/photos/2044434/pexels-photo-2044434.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop',
+      image: 'https://images.pexels.com/photos/2044434/pexels-photo-2044434.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop',
       description: 'H1B, F1 Student, Tourist Visa, Green Card',
       popular: true
     },
     {
       name: 'New Zealand',
-      flag: 'https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop',
+      image: 'https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop',
       description: 'Skilled Migrant, Work Visa, Student Visa'
     },
     {
       name: 'Germany',
-      flag: 'https://images.pexels.com/photos/109629/pexels-photo-109629.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop',
+      image: 'https://images.pexels.com/photos/109629/pexels-photo-109629.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop',
       description: 'EU Blue Card, Student Visa, Job Seeker Visa'
     },
     {
       name: 'Netherlands',
-      flag: 'https://images.pexels.com/photos/208701/pexels-photo-208701.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop',
+      image: 'https://images.pexels.com/photos/208701/pexels-photo-208701.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop',
       description: 'Highly Skilled Migrant, Student Visa'
     },
     {
       name: 'Sweden',
-      flag: 'https://images.pexels.com/photos/1559821/pexels-photo-1559821.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop',
+      image: 'https://images.pexels.com/photos/1559821/pexels-photo-1559821.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop',
       description: 'Work Permit, Student Visa, Family Reunion'
     },
     {
       name: 'Norway',
-      flag: 'https://images.pexels.com/photos/1450360/pexels-photo-1450360.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop',
+      image: 'https://images.pexels.com/photos/1450360/pexels-photo-1450360.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop',
       description: 'Skilled Worker, Student Visa, Family Immigration'
     },
     {
       name: 'Denmark',
-      flag: 'https://images.pexels.com/photos/1139556/pexels-photo-1139556.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop',
+      image: 'https://images.pexels.com/photos/1139556/pexels-photo-1139556.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop',
       description: 'Green Card, Work Permit, Student Visa'
     },
     {
       name: 'Singapore',
-      flag: 'https://images.pexels.com/photos/2031706/pexels-photo-2031706.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop',
+      image: 'https://images.pexels.com/photos/2031706/pexels-photo-2031706.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop',
       description: 'Employment Pass, Student Pass, Dependent Pass'
     },
     {
       name: 'UAE',
-      flag: 'https://images.pexels.com/photos/1534560/pexels-photo-1534560.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop',
+      image: 'https://images.pexels.com/photos/1534560/pexels-photo-1534560.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop',
       description: 'Work Visa, Tourist Visa, Golden Visa'
     }
   ];

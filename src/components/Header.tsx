@@ -82,10 +82,6 @@ const Header = () => {
                 Countries
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-red-600 transition-all duration-300 group-hover:w-full"></span>
               </a>
-              <a href="/talent-import-export" className="text-gray-700 hover:text-red-600 font-medium transition-all duration-300 hover:scale-110 relative group">
-                Talent Import/Export
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-red-600 transition-all duration-300 group-hover:w-full"></span>
-              </a>
               <a href="#testimonials" className="text-gray-700 hover:text-red-600 font-medium transition-all duration-300 hover:scale-110 relative group">
                 Success Stories
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-red-600 transition-all duration-300 group-hover:w-full"></span>
@@ -114,7 +110,6 @@ const Header = () => {
                 <a href="#about" className="text-gray-700 hover:text-red-600 font-medium py-3 px-4 rounded-lg hover:bg-white transition-all duration-300">About</a>
                 <a href="#services" className="text-gray-700 hover:text-red-600 font-medium py-3 px-4 rounded-lg hover:bg-white transition-all duration-300">Services</a>
                 <a href="#countries" className="text-gray-700 hover:text-red-600 font-medium py-3 px-4 rounded-lg hover:bg-white transition-all duration-300">Countries</a>
-                <a href="/talent-import-export" className="text-gray-700 hover:text-red-600 font-medium py-3 px-4 rounded-lg hover:bg-white transition-all duration-300">Talent Import/Export</a>
                 <a href="#testimonials" className="text-gray-700 hover:text-red-600 font-medium py-3 px-4 rounded-lg hover:bg-white transition-all duration-300">Success Stories</a>
                 <a href="#contact" className="bg-red-600 text-white font-medium py-3 px-4 rounded-lg hover:bg-black transition-all duration-300 text-center">Contact Us</a>
               </nav>
